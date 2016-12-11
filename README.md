@@ -10,10 +10,10 @@ I am including all the setups of the above mentioned software that needs to be i
 I ran the script using TestNG, which needs to be installed in Spring Tool Suite.
 The JAR files that I used are :
 
-1. TestNG
+1. TestNG (library)
 2. Selenium 2.53.1 -> libs
 3. Selenium 2.53.1 -> selenium-server-2.53.1 & selenium-server-2.53.1-srcs
-
+4. jxl.jar
 
 Approach
 ========
@@ -36,5 +36,14 @@ Screenshot5 : Scroll bar is missing when the page is minimized.
 Automation Testing Approach
 ===========================
 
-data-driven elements : I tested the 'Call Me' form given in the home page for directspecials.com with multiple inputs from an excel spreadsheet. I called the excel sheet path in the script and put the sheet column data in a for loop.
+Data-driven elements : I tested the 'Call Me' form given in the home page for directspecials.com with multiple inputs from an excel spreadsheet. I called the excel sheet path in the script and put the sheet column data in a for loop and executed the attached scripts.
+I tested the script in multiple browsers (Chrome, IE & Firefox). PLEASE SEE script DataDriven.java & DiffBrowsers_DataDriven.java respectively.
+
+User Profile : I tested Existing Customers --> Click Here --> Create Account (button) --> which takes you to https://www.directv.com/DTVAPP/register/register.jsp because there was no user profile in directspecials.com. The inputs here were also data driven from an excel spreadsheet using for loop. PLEASE SEE script Userprofile.java 
+
+User Options : I checked links, hover tips, advertisements and the footer on directspecials.com on multiple browsers (Chrome, IE & Firefox). PLEASE SEE script UserOptions.java & DiffBrowsers_UserOptions.java
+
+
+
+
 
