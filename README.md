@@ -43,6 +43,8 @@ User Profile : I tested Existing Customers --> Click Here --> Create Account (bu
 
 User Options : I checked links, hover tips, advertisements and the footer on directspecials.com on multiple browsers (Chrome, IE & Firefox). **PLEASE SEE** script **UserOptions.java** & **DiffBrowsers_UserOptions.java**
 
+Note : The scrpts are located in **Interview_Project.zip** file at **'Interview_Project\InterviewProject\src\directspecials_package'** or load the project in **Spring Tools Suite**.
+
 Errors/Bugs 
 ===========
 
