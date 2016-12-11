@@ -43,6 +43,7 @@ User Profile : I tested Existing Customers --> Click Here --> Create Account (bu
 
 User Options : I checked links, hover tips, advertisements and the footer on directspecials.com on multiple browsers (Chrome, IE & Firefox). PLEASE SEE script UserOptions.java & DiffBrowsers_UserOptions.java
 
+**fd**
 
-#khkjhjh
+#
 
