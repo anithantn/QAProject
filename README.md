@@ -37,11 +37,18 @@ Automation Testing Approach
 ===========================
 
 Data-driven elements : I tested the 'Call Me' form given in the home page for directspecials.com with multiple inputs from an excel spreadsheet. I called the excel sheet path in the script and put the sheet column data in a for loop and executed the attached scripts.
-I tested the script in multiple browsers (Chrome, IE & Firefox). **PLEASE SEE** script **DataDriven.java** & **DiffBrowsers_DataDriven.java* respectively.
+I tested the script in multiple browsers (Chrome, IE & Firefox). **PLEASE SEE** script **DataDriven.java** & **DiffBrowsers_DataDriven.java** respectively.
 
 User Profile : I tested Existing Customers --> Click Here --> Create Account (button) --> which takes you to https://www.directv.com/DTVAPP/register/register.jsp because there was no user profile in directspecials.com. The inputs here were also data driven from an excel spreadsheet using for loop. **PLEASE SEE** script **Userprofile.java** 
 
 User Options : I checked links, hover tips, advertisements and the footer on directspecials.com on multiple browsers (Chrome, IE & Firefox). **PLEASE SEE** script **UserOptions.java** & **DiffBrowsers_UserOptions.java**
 
-#
+Errors/Bugs 
+===========
+
+I used Inspect Elements with Firebug to get the locators for directspecials.com. I found out after executing the scripts, that the elements worked intermittently. While they work most of the times, they sometimes error out. **PLEASE SEE** screenshot **userprofile_john** & **userprofile_passed**.
+
+This error is generated intermittently on all the 3 above mentioned automation testing approach.
+
+
 
